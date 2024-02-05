@@ -130,3 +130,34 @@ body {
   margin-left: -100px;
   margin-bottom: 20px;
 }
+
+.advantages {
+  margin-top: 100px;
+}
+
+.advantages .title-h2 {
+  margin-bottom: 60px;
+}
+
+.blue-advantage, .white-advantage {
+  border-radius: 12px;
+  padding: 60px;
+  margin-bottom: 32px;
+}
+
+.blue-advantage {
+  background: rgb(235, 244, 253);
+}
+
+.white-advantage {
+  background: rgb(244, 244, 244);
+}
+
+
+.advantage-text {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+}
