@@ -642,12 +642,14 @@ body {
   font-size: 25px;
   font-weight: 400;
   line-height: 34px;
+  height: 92px;
+  display: flex;
+  align-items: center;
 }
 
 .faq-block-svg {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .faq-collapse-text {
@@ -671,6 +673,7 @@ body {
 
 .svg-minus {
   display: none;
+  margin-top: 10px;
 }
 
 .faq-block.open {
