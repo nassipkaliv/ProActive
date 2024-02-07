@@ -45,3 +45,11 @@ nextButton.addEventListener('click', function() {
 function updatePagination() {
   pagination.textContent = currentPage.toString().padStart(2, '0');
 }
+
+const swiper = new Swiper('.example-Swiper', {
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
