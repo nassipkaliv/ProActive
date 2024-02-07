@@ -486,3 +486,23 @@ body {
 .controller-prev, .controller-next {
   position: static !important;
 }
+
+.info {
+  margin-top: 100px;
+}
+
+.vertical-line {
+  box-sizing: border-box;
+  /* primary */
+  border: 4px solid rgb(0, 114, 229);
+  margin-right: 30px;
+}
+
+.info-text {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: left;
+}
