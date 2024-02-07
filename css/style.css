@@ -107,8 +107,6 @@ body {
   font-size: 32px;
   font-weight: 400;
   line-height: 50px;
-  border-style: dashed;
-  border-color: gray;
 }
 
 .bignumber {
@@ -160,4 +158,90 @@ body {
   font-size: 26px;
   font-weight: 400;
   line-height: 35px;
+}
+
+.efficiency {
+  margin-top: 85px;
+}
+
+.stat-big {
+  color: rgb(0, 114, 229);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 350.84px;
+  font-weight: 400;
+  line-height: 313.08px;
+  letter-spacing: -5%;
+}
+
+.stat-big span {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 70.88px;
+  font-weight: 400;
+  line-height: 59.83px;
+  letter-spacing: -5%;
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+
+.efficiency-text {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+
+.efficiency-row {
+  margin-top: -75px;
+}
+
+.our-work {
+  margin-top: 120px;
+}
+
+.our-work .title-h2 {
+  margin-bottom: 60px;
+}
+
+.our-work .row {
+  gap: 40px;
+}
+
+.work-card {
+  box-sizing: border-box;
+  /* grey */
+  border: 1px solid rgb(197, 197, 198);
+  padding: 54px 25px 30px 25px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work-card-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.work-card-description {
+    /* body6 */
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 40px;
+}
+
+.card-order {
+  color: rgb(154, 194, 235);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 114px;
+  font-weight: 400;
+  line-height: 91.09px;
 }
