@@ -53,3 +53,37 @@ const swiper = new Swiper('.example-Swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+function toggleIcon() {
+  var plusIcon = document.querySelector('.svg-plus');
+  var minusIcon = document.querySelector('.svg-minus');
+  
+  if (plusIcon.style.display === 'none') {
+    plusIcon.style.display = 'block';
+    minusIcon.style.display = 'none';
+  } else {
+    plusIcon.style.display = 'none';
+    minusIcon.style.display = 'block';
+  }
+
+  var faqBlock = document.getElementById('faq-block1');
+  faqBlock.classList.toggle('open');
+}
+
+
+
+function toggleIcon2() {
+  var plusIcon = document.getElementById('plus-2');
+  var minusIcon = document.getElementById('minus-2');
+  
+  if (plusIcon.style.display === 'none') {
+    plusIcon.style.display = 'block';
+    minusIcon.style.display = 'none';
+  } else {
+    plusIcon.style.display = 'none';
+    minusIcon.style.display = 'block';
+  }
+  var faqBlock = document.getElementById('faq-block2');
+  faqBlock.classList.toggle('open');
+}
+
