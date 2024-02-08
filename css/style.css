@@ -1071,4 +1071,90 @@ body {
     line-height: 90px;
   }
 
+  .examples.desktop {
+    display: none !important;
+  }
+
+  .examples.mob {
+    display: block !important;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-top: 100px;
+  }
+
+  .examples .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .example-card {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+    background: url('../assets/img/gulliver.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .econom-block {
+    padding: 9px 18px;
+  }
+
+  .econ-percent {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.26px;
+  }
+
+  .block-with-span {
+    margin-top: 0;
+  }
+
+  .econ-percent span {
+    font-size: 33.29px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 3%;
+  }
+
+  .econ-percent .percent {
+    font-size: 14.43px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 3px;
+  }
+
+  .left-col {
+    margin-top: 16px;
+    margin-left: 0;
+    padding: 20px 12px 20px 12px;
+  }
+
+  .example-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .example-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+
+  .eco-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .eco-block {
+    margin-top: 16px;
+    padding: 25px 12px;
+  }
 }
