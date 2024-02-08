@@ -885,4 +885,46 @@ body {
   .footer-links {
     gap: 16px;
   }
+
+  .aboutus {
+    display: none !important;
+  }
+
+  .aboutus.mob {
+    display: block !important;
+    margin-top: 60px;
+  }
+
+  .title-h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 30px;
+  }
+
+  .aboutus.mob .title-h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+  }
+
+  .bignumber {
+    font-size: 182.27px;
+    font-weight: 400;
+    line-height: 145.64px;
+  }
+
+  .bignumber span {
+    font-size: 14.03px;
+    font-weight: 600;
+    line-height: 17.54px;
+    margin-left: -15px;
+    align-items: center;
+  }
+
+  .aboutus-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }
