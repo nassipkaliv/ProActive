@@ -945,7 +945,7 @@ body {
   .efficiency {
     margin-top: 60px;
   }
-  
+
   .efficiency .row {
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -973,5 +973,59 @@ body {
 
   .efficiency-row {
     margin-top: 32px;
+  }
+
+  .electr.desktop {
+    display: none;
+  }
+
+  .electr.mob {
+    display: block !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .choose-container {
+    padding: 20px;
+  }
+
+  .choose-info {
+    padding: 25px 20px;
+  }
+
+  .choose-title {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .choose-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .choose-line {
+    border: 0.56px solid rgb(255, 255, 255);
+  }
+
+  .choose-pagination .o1 {
+    font-size: 20px;
+  }
+
+  .choose-pagination .o2 {
+    font-size: 14px;
+  }
+
+  .choose-pagination .divider {
+    font-size: 17px;
+  }
+
+  .controller {
+    width: 34px;
+    height: 34px;
   }
 }

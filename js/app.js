@@ -1,50 +1,58 @@
-const buttons = document.querySelectorAll('.choose-button');
-const images = document.querySelectorAll('.choose-image img');
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('.choose-button');
 
-buttons.forEach(button => {
+  buttons.forEach(button => {
+      button.addEventListener('click', function () {
+          const target = this.getAttribute('data-target');
+          const images = document.querySelectorAll('.choose-image img');
+
+          images.forEach(img => {
+              if (img.classList.contains(target)) {
+                  img.classList.remove('d-none');
+                  img.classList.add('active');
+              } else {
+                  img.classList.add('d-none');
+                  img.classList.remove('active');
+              }
+          });
+
+          buttons.forEach(btn => {
+              btn.classList.remove('active');
+          });
+
+          this.classList.add('active');
+      });
+  });
+});
+
+const prevButtons = document.querySelectorAll('.controllers .controller[src="assets/img/prev.png"]');
+const nextButtons = document.querySelectorAll('.controllers .controller[src="assets/img/next.png"]');
+const paginations = document.querySelectorAll('.choose-pagination .o1');
+
+let currentPage = [1, 1]; // Текущая страница для каждого блока
+
+prevButtons.forEach((button, index) => {
   button.addEventListener('click', function() {
-    const target = this.getAttribute('data-target');
-
-    // Remove 'active' class from all buttons
-    buttons.forEach(btn => btn.classList.remove('active'));
-
-    // Add 'active' class to the clicked button
-    this.classList.add('active');
-
-    // Hide all images
-    images.forEach(img => img.classList.add('d-none'));
-
-    // Show the target image
-    const targetImage = document.querySelector(`.${target}`);
-    if (targetImage) {
-      targetImage.classList.remove('d-none');
+    if (currentPage[index] > 1) {
+      currentPage[index]--;
+      updatePagination(index);
     }
   });
 });
 
-const prevButton = document.querySelector('.controllers .controller[src="assets/img/prev.png"]');
-const nextButton = document.querySelector('.controllers .controller[src="assets/img/next.png"]');
-const pagination = document.querySelector('.choose-pagination .o1');
-
-let currentPage = 1; // Текущая страница
-
-prevButton.addEventListener('click', function() {
-  if (currentPage > 1) {
-    currentPage--;
-    updatePagination();
-  }
+nextButtons.forEach((button, index) => {
+  button.addEventListener('click', function() {
+    if (currentPage[index] < 2) {
+      currentPage[index]++;
+      updatePagination(index);
+    }
+  });
 });
 
-nextButton.addEventListener('click', function() {
-  if (currentPage < 2) {
-    currentPage++;
-    updatePagination();
-  }
-});
-
-function updatePagination() {
-  pagination.textContent = currentPage.toString().padStart(2, '0');
+function updatePagination(index) {
+  paginations[index].textContent = currentPage[index].toString().padStart(2, '0');
 }
+
 
 const swiper = new Swiper('.example-Swiper', {
 
