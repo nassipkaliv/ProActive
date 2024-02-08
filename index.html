@@ -27,15 +27,35 @@
   </nav>
 
   <div class="intro">
-    <div class="container d-flex flex-column justify-content-between">
+    <div class="navbar-container">
+      <nav class="navbar-mobile d-none">
+        <img class="logo" width="120px" height="40px" src="assets/img/logo.png">
+        <div class="d-flex align-items-center">
+          <button class="btn zayavka-btn">Оставить заявку</button>
+          <div class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
+            <svg width="32.000000" height="12.000000" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                    Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Vector 39" d="M0 1L32 1" stroke="#161616" stroke-opacity="1.000000" stroke-width="2.000000"/>
+                <path id="Vector 40" d="M0 11L32 11" stroke="#161616" stroke-opacity="1.000000" stroke-width="2.000000"/>
+            </svg>          
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container  d-flex flex-column justify-content-between">
       <div>
         <h1 class="title-h1">ПРОАКТИВ</h1>
-        <div class="subtitle mt-3">Комплексы промышленной <br> энергоэффективности</div>
+        <div class="subtitle mt-3">Предлагаем вашему вниманию Энергосберегающий комплекс  внедрения наших технологий на предприятии</div>
       </div>
       <div class="intro-btn">
         <button type="button" class="btn zayavka-btn">Оставить заявку</button>
       </div>
     </div>
+  
   </div>
 
   <div class="container aboutus">
@@ -694,7 +714,43 @@
   </footer>
 
 
-
+  <div class="modal fade" id="fullscreenModal" tabindex="-1" role="dialog" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body border-0">
+              <img class="modal-logo" width="200px" height="65px" src="assets/img/logo.png">
+              <div class="modal-buttons d-flex flex-column">
+                <div>
+                  <button class="zayavka-btn mb-4">
+                    Оставить заявку
+                  </button>
+                </div>
+                <div>
+                  <button class="question-btn">
+                    Задать вопрос
+                  </button>
+                </div>
+              </div>
+              <div class="modal-links d-flex flex-column">
+                <a class="modal-link">Проактив</a>
+                <a class="modal-link">Проактив+</a>
+                <a class="modal-link">Подбор решения</a>
+                <a class="modal-link">Энергетикам</a>
+              </div>
+              <div class="modal-line"></div>
+              <div class="footer-links d-flex flex-column align-items-center justify-content-center">
+                <a href="tel:+77777777777" class="footer-link text-decoration-none">+7 777 777 77 77</a>
+                <a href="#" class="footer-link text-decoration-none">proactiv@mail.ru</a>
+                <a href="#" class="footer-link text-decoration-none">Telegram</a>
+                <a href="#" class="footer-link text-decoration-none">Whatsapp</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
   
 
 
