@@ -40,6 +40,13 @@ body {
   font-weight: 600;
   line-height: 25px;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+.question-btn:hover {
+  color: #fff !important;
+  border: 2px solid rgb(0, 114, 229);
+  background: rgb(0, 114, 229);
 }
 
 .zayavka-btn {
@@ -49,12 +56,28 @@ body {
   border-radius: 12px;
   padding: 12px 24px;
   background: rgb(0, 114, 229);
-  color: #fff;
+  color: #fff !important;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+.zayavka-btn:active {
+  border: 2px solid rgb(0, 114, 229);
+  background: rgb(0, 114, 229);
+}
+
+.zayavka-btn:hover {
+  background: rgb(8, 96, 184);
+  border: 2px solid rgb(8, 96, 184);
+}
+
+.zayavka-btn:disabled {
+  border: 2px solid rgb(95, 163, 231);
+  background: rgb(95, 163, 231);
 }
 
 .intro {
