@@ -941,4 +941,37 @@ body {
     align-items: center;
     margin-bottom: 12px;
   }
+
+  .efficiency {
+    margin-top: 60px;
+  }
+  
+  .efficiency .row {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .stat-big {
+    font-size: 182px;
+    font-weight: 400;
+    line-height: 159.62px;
+  }
+
+  .stat-big span {
+    font-size: 38.18px;
+    font-weight: 400;
+    line-height: 30.51px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .efficiency-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .efficiency-row {
+    margin-top: 32px;
+  }
 }
