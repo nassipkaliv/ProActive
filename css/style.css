@@ -1157,4 +1157,19 @@ body {
     margin-top: 16px;
     padding: 25px 12px;
   }
+
+  .info {
+    margin-top: 60px;
+  }
+
+  .vertical-line {
+    border: 2px solid rgb(0, 114, 229);
+    margin-right: 15px;
+  }
+  
+  .info-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+  }
 }
