@@ -1205,4 +1205,47 @@ body {
     line-height: 19px;
   }
 
+  .contact.desktop {
+    display: none !important;
+  }
+
+  .contact.mob {
+    display: block !important;
+    margin-top: 60px;
+    border: 0 !important;
+    padding: 0px 20px;
+  }
+
+  .contact .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .form-btn {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+  }
+
+  .form-description {
+    padding-top: 19px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+  }
 }
