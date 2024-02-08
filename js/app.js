@@ -313,7 +313,11 @@ function toggleIcon16() {
   faqBlock.classList.toggle('open');
 }
 
-
+var mySwiper = new Swiper('.mobSwiper', {
+  slidesPerView: 1.2,
+  spaceBetween: 30,
+  loop: true,
+});
 
 
 

@@ -1028,4 +1028,47 @@ body {
     width: 34px;
     height: 34px;
   }
+
+  .our-work.desktop {
+    display: none !important;
+  }
+
+  .our-work.mob {
+    display: block !important;
+    margin-top: 90px;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+  .our-work .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 25px;
+  }
+
+  .work-card {
+    padding: 41px 13px;
+    height: 414px;
+  }
+
+  .work-card-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .work-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+
+  .card-order {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 90px;
+  }
+
 }
