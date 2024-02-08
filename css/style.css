@@ -1248,4 +1248,41 @@ body {
     font-weight: 400;
     line-height: 19px;
   }
+
+  .faq .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .faq {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 90px;
+  }
+
+  .faq-row {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 16px !important;
+    gap: 16px !important;
+  }
+
+  .faq-block {
+    padding: 16px 12px;
+    flex-shrink: 0 !important;
+    flex: 0 1 auto!important;
+  }
+
+  .faq-block-text {
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .morebtn {
+    margin-top: 24px !important;
+  }
 }
