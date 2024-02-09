@@ -319,6 +319,16 @@ var mySwiper = new Swiper('.mobSwiper', {
   loop: true,
 });
 
+var taksSwiper = new Swiper('.taskSwiper', {
+  slidesPerView: 2.1,
+  spaceBetween: 40,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
 
 
 

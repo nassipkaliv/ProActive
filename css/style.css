@@ -887,6 +887,91 @@ body {
   margin-bottom: 32px;
 }
 
+.tasks {
+  margin-top: 100px;
+  padding-right: 0px !important;
+  padding-left: 60px;
+}
+
+.tasks .title-h2 {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+
+.task-title {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.task-block {
+  padding-left: 32px;
+}
+
+.task-big-number {
+  color: rgb(0, 114, 229);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 3%;
+}
+
+.task-percent {
+  color: rgb(122, 122, 122);
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.task-block.second {
+  margin-left: 110px;
+}
+
+.task-row {
+  margin-top: 80px;
+}
+
+.taskSwiper {
+  box-sizing: border-box;
+  /* grey */
+  border: 1px solid rgb(197, 197, 198);
+  border-radius: 12px;
+  padding: 52px 32px 120px 52px;
+}
+
+.taskSwiper .swiper-wrapper {
+  margin-bottom: 100px;
+}
+
+.task-order {
+  color: rgb(0, 114, 229);
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-right: 20px;
+}
+
+.task-block-info {
+  color: rgb(122, 122, 122);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.taskSwiper .swiper-controllers {
+  margin-top: -50px;
+}
+
 
 @media (max-width: 768px) {
   .navbar {
