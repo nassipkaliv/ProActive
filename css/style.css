@@ -845,6 +845,33 @@ body {
   line-height: 30px;
 }
 
+.info-proactive {
+  margin-top: 110px;
+}
+
+.info-line {
+  /* primary */
+  border: 2px solid rgb(0, 114, 229);
+  margin-right: 37px;
+}
+
+.info-p {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 75%;
+}
+
+.info-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
