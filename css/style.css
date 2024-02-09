@@ -972,6 +972,71 @@ body {
   margin-top: -50px;
 }
 
+.install {
+  margin-top: 100px;
+}
+
+.install .title-h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+
+.install-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.install-line {
+  border: 1px solid rgb(197, 197, 198);
+}
+
+.install-text {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.install-card {
+  border: 1px solid rgb(197, 197, 198);
+  border-radius: 12px;
+  /* white */
+  background: rgb(255, 255, 255);
+  padding: 64px 27px;
+}
+
+.install-right-col {
+  padding-left: 60px;
+}
+
+.install-card-title {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 28.39px;
+  font-weight: 400;
+  line-height: 38.21px;
+}
+
+.install-card-number {
+  color: rgb(0, 114, 229);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 65.51px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 3%;
+}
+
+.install-card-number span {
+  color: rgb(122, 122, 122);
+  font-size: 28.39px;
+  font-weight: 400;
+  line-height: 55px;
+}
 
 @media (max-width: 768px) {
   .navbar {
