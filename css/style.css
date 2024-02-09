@@ -872,6 +872,22 @@ body {
   line-height: 50px;
 }
 
+.video-proactive {
+  margin-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.video-proactive .title-h2 {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 32px;
+}
+
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
