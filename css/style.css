@@ -1606,8 +1606,8 @@ body {
   }
 
   .intro-row {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .intro-subtitle {
@@ -1628,4 +1628,85 @@ body {
     font-weight: 400;
     line-height: 26px;
   }
+
+  .intro-line {
+    display: none !important;
+  }
+
+  .intro-second-row {
+    display: none !important;
+  }
+
+  .intro-second-row-mob {
+    display: block !important;
+    padding-left: 15px;
+  }
+
+  .big-duration {
+    font-size: 144px;
+    font-weight: 600;
+    line-height: 244.81px;
+    letter-spacing: -4%;
+  }
+
+  .month-name {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  .month-small {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: -40px;
+  }
+
+  .intro-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 50px;
+  }
+
+  .intro-info-small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 32px;
+  }
+
+  .info-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .info-proactive {
+    margin-top: 32px;
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+
+  .info-line {
+    margin-right: 18px;
+  }
+
+  .info-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .info-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .info-mob-col {
+    padding-left: 40px;
+    margin-top: 32px;
+    padding-right: 20px;
+  }
+
 }
