@@ -1709,4 +1709,21 @@ body {
     padding-right: 20px;
   }
 
+  .video-proactive {
+    margin-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .video-proactive .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .video-frame {
+    height: 200px !important;
+  }
+
 }
