@@ -1136,6 +1136,10 @@ body {
   margin-top: 10px;
 }
 
+.energetik .install-card {
+  padding: 40px 27px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
