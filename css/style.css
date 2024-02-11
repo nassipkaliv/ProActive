@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
 
 body {
   margin: 0;
@@ -1515,6 +1515,116 @@ body {
   line-height: 28px;
 }
 
+.oprosnik-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.oprosnik-description {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.opros-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.opros-block {
+  border: 1px solid rgb(197, 197, 198);
+  border-radius: 8px;
+  padding: 26px 50px 26px 50px;
+  width: 100%;
+  transition: all 0.3s ease;
+  margin-top: 32px;
+}
+
+.opros-block.active {
+  border: 1px solid rgb(0, 114, 229);
+}
+
+.opros-question {
+  color: rgb(22, 22, 22);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.opros-input {
+  border: none;
+  border-bottom: 1px solid rgb(197, 197, 198);
+  width: 100%;
+  color: rgb(22, 22, 22);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.opros-input::placeholder {
+  color: rgb(122, 122, 122);
+  text-align: left !important;
+}
+
+.form-check-label {
+  color: rgb(122, 122, 122);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.opros-text {
+  color: rgb(122, 122, 122);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.form-bottom {
+  margin-top: 40px;
+}
+
+.clear-form-btn {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  color: rgb(0, 114, 229);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.oprosAcceptedBlock {
+  border: 1px solid rgb(197, 197, 198);
+  border-radius: 8px;
+  padding: 50px 200px;
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  margin-top: 60px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
@@ -2626,5 +2736,30 @@ body {
     background: url("../assets/img/gulliver4.png") !important;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .opros-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .oprosnik-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 24px;
+  }
+
+  .oprosnik-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .oprosAcceptedBlock {
+    padding: 50px 95px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
   }
 }

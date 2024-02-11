@@ -363,10 +363,25 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $('.opros-input').focus(function() {
+    $(this).closest('.opros-block').addClass('active');
+  });
+  $('.opros-input').blur(function() {
+    $(this).closest('.opros-block').removeClass('active');
+  });
+});
 
 
+function clearForm() {
+  document.getElementById("opros-form").reset();
+}
 
-
+// Event listener for the "Clear Form" link
+document.getElementById("clear-form").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent default behavior of the link
+  clearForm(); // Call the function to clear the form
+});
 
 
 
