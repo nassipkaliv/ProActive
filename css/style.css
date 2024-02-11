@@ -1798,6 +1798,7 @@ body {
     flex-direction: column;
     gap: 30px;
     height: 319px;
+    margin-right: 8px !important;
   }
 
   .task-block-info {
@@ -1805,4 +1806,64 @@ body {
     font-weight: 400;
     line-height: 22px;
   }
+
+  .install.desktop {
+    display: none !important;
+  }
+
+  .install.mob {
+    display: block !important;
+  }
+
+  .install {
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .install .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .install-right-col {
+    padding-left: 0;
+  }
+
+  .install-card {
+    padding: 20px;
+  }
+
+  .install-card-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .install-card-number {
+    font-size: 44.84px;
+    font-weight: 600;
+    line-height: 61.65px;
+  }
+
+  .install-card-number span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  .install-block {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .install-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+
 }
