@@ -330,6 +330,17 @@ var taksSwiper = new Swiper('.taskSwiper', {
 });
 
 
+var taksSwiper = new Swiper('.descriptionSwiper', {
+  slidesPerView: 3,
+  spaceBetween: 60,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+
 
 
 

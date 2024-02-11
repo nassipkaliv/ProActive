@@ -1040,7 +1040,7 @@ body {
 
 .intro-description {
   color: rgb(122, 122, 122);
-  font-family: Nunito Sans;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
@@ -1049,11 +1049,59 @@ body {
 
 .big-plus {
   color: rgb(22, 22, 22);
-  font-family: Nunito Sans;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 70px;
   font-weight: 600;
   line-height: 103px;
   margin-bottom: 55px;
+}
+
+.energetik-subtitle {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.energetik-description .title-h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+
+.desc-card {
+  box-sizing: border-box;
+  /* grey */
+  border: 1px solid rgb(197, 197, 198);
+  padding: 60px 30px;
+  height: 420px;
+}
+
+.desc-text {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.desk-prev {
+  left: var(--swiper-navigation-sides-offset, 0px) !important;
+}
+
+.desk-next {
+  right: var(--swiper-navigation-sides-offset, 0px) !important;
+}
+
+.descriptionSwiper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.swiper-line {
+  border: 1px solid rgb(197, 197, 198);
 }
 
 @media (max-width: 768px) {
