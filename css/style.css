@@ -2401,4 +2401,99 @@ body {
     font-weight: 400;
     line-height: 16px;
   }
+
+  .energetik-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .energetik-description {
+    padding-left: 20px !important;
+    margin-top: 60px;
+  }
+
+  .energetik-description .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .descriptionSwiper {
+    display: none !important;
+  }
+
+  .mobSwiper {
+    display: block !important;
+  }
+
+  .graphs {
+    margin-top: 60px;
+  }
+
+  .graphs .title-h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .img-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .img-after-text {
+    text-align: left !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  .img-after-text.tok {
+    text-align: center !important;
+  }
+
+  .security {
+    display: none;
+  }
+
+  .security.mob {
+    display: block !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 60px;
+  }
+
+  .security .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .security-card {
+    padding: 27px;
+  }
+
+  .security-card .install-card-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .security-card .install-card-number {
+    font-size: 44.84px;
+    font-weight: 600;
+    line-height: 61.65px;
+  }
+
+  .security-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }
