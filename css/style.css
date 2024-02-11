@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 
 body {
   margin: 0;
@@ -1302,6 +1304,173 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 34px;
+}
+
+.custom-navbar .container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.thanksContainer {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.custom-navbar-title {
+  color: rgb(0, 114, 229);
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.custom-navbar-text {
+  color: rgb(0, 114, 229);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.76px;
+}
+
+.thanksContainer {
+  margin-top: 60px;
+}
+
+.thanks-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.thanks-subtitle {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 134%;
+}
+
+.thanks-contacts {
+  margin-top: 60px;
+}
+
+.thanks-contact-item span {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgb(22, 22, 22);
+}
+
+.thanks-contact-item {
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(22, 22, 22);
+}
+
+.under-text {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.thanks-socialMedia {
+  margin-top: 60px;
+}
+
+.socialTitle {
+  color: rgb(22, 22, 22);
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.socialMediaIcons {
+  gap: 20px;
+}
+
+.socialMediaIcons svg {
+  cursor: pointer;
+}
+
+.toContact {
+  margin-top: 60px;
+}
+
+.toContact-item {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  gap: 8px;
+}
+
+.thanksSwiper {
+  margin-top: 60px;
+  background: rgb(235, 244, 253);
+  padding: 40px 150px;
+}
+
+.thanksSwiper-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.thanksSwiper-slideTitle {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.thanksSwiper-slideInfo {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.thanksSwiper .swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset, 100px);
+}
+
+.thanksSwiper .swiper-button-next {
+  right: var(--swiper-navigation-sides-offset, 100px);
+}
+
+.customFooter {
+  background: rgb(255, 255, 255);
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+}
+
+.footer-line {
+  margin-top: 70px;
+  border: 1px solid rgb(53, 63, 75);
+  margin-bottom: 16px;
+}
+
+.customFooter-text {
+  color: rgb(53, 63, 75);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
 }
 
 @media (max-width: 768px) {
