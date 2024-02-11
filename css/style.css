@@ -1729,8 +1729,8 @@ body {
 
   .video-proactive {
     margin-top: 90px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .video-proactive .title-h2 {
@@ -1744,4 +1744,65 @@ body {
     height: 200px !important;
   }
 
+  .tasks.desktop {
+    display: none !important;
+  }
+
+  .tasks.mob {
+    display: block !important;
+    padding-left: 15px;
+    margin-top: 90px;
+  }
+
+  .tasks .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+
+  .task-block.second {
+    margin-left: 50px;
+  }
+
+  .task-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .task-big-number {
+    font-size: 44.84px;
+    font-weight: 600;
+    line-height: 61.65px;
+  }
+
+  .task-percent {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .task-block {
+    padding-left: 22px;
+  }
+
+  .task-row {
+    margin-top: 50px;
+  }
+
+  .task-swipe-block {
+    box-sizing: border-box;
+    /* grey */
+    border: 1px solid rgb(197, 197, 198);
+    padding: 24px 15px 50px 15px;
+    flex-direction: column;
+    gap: 30px;
+    height: 319px;
+  }
+
+  .task-block-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }
