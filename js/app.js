@@ -341,7 +341,7 @@ var taksSwiper = new Swiper('.descriptionSwiper', {
 });
 
 var thanksSwiper = new Swiper('.thanksSwiper', {
-  slidesPerView: 1,
+  slidesPerView: 1.0,
   loop: true,
   navigation: {
     nextEl: '.swiper-button-next',

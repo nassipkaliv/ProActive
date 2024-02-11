@@ -2282,5 +2282,123 @@ body {
     line-height: 20px;
   }
   
+  .custom-navbar  {
+    padding-top: 16px !important;
+  }
 
+  .custom-navbar .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .thanksContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+
+  .thanks-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 128%;
+  }
+
+  .thanks-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -1.5%;
+  }
+
+  .thanks-contacts {
+    margin-top: 30px;
+  }
+
+  .thanks-contact-item span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .thanks-contact-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .under-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 12px;
+  }
+
+  .thanks-socialMedia {
+    margin-top: 50px;
+  }
+
+  .socialTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.09px;
+  }
+
+  .toContactRow {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  .toContact-item.cent {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .thanksSwiper {
+    margin-top: 60px;
+    background: rgb(235, 244, 253);
+    padding: 32px 20px;
+  }
+
+  .thanksSwiper .swiper-button-prev.da {
+    display: none;
+  }
+  
+  .thanksSwiper .swiper-button-next.da {
+    display: none;
+  }
+
+  .thanksSwiper .swiper-controllers {
+    display: flex !important;
+    gap: 60px;
+    margin-top: 60px;
+  }
+
+  .footer-line {
+    display: none !important;
+  }
+
+  .customFooter {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .customFooter-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .custom-navbar-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .custom-navbar-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
 }
