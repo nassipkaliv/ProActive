@@ -1140,6 +1140,42 @@ body {
   padding: 40px 27px;
 }
 
+.security {
+  margin-top: 100px;
+}
+
+.security .title-h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+
+.security-text {
+  color: rgb(22, 22, 22);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.security-card {
+  border: 1px solid rgb(197, 197, 198);
+  padding: 25px 30px;
+}
+
+.security-card .install-card-title {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.security-card .install-card-number {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 82px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
