@@ -2496,4 +2496,38 @@ body {
     font-weight: 400;
     line-height: 22px;
   }
+
+  .benefits {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: 60px;
+  }
+
+  .benefits .title-h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .benefit-block {
+    height: 170px;
+    margin-bottom: 20px;
+  }
+
+  .benefit-order {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 82px;
+  }
+
+  .benefit-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .second-row-benefit {
+    margin-top: 0px;
+  }
 }
