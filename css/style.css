@@ -2530,4 +2530,59 @@ body {
   .second-row-benefit {
     margin-top: 0px;
   }
+
+  .solution-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 24px;
+  }
+
+  .useExample {
+    display: none !important;
+  }
+
+  .useExample.mob {
+    display: block !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    margin-top: 50px;
+  }
+
+  .useExample .title-h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37px;
+  }
+
+  .useExample-block {
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  .useExample-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+
+  .example-card.sec {
+    background: url("../assets/img/gulliver2.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .example-card.three {
+    background: url("../assets/img/gulliver3.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .example-card.four {
+    background: url("../assets/img/gulliver4.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
