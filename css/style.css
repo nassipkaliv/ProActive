@@ -1104,6 +1104,38 @@ body {
   border: 1px solid rgb(197, 197, 198);
 }
 
+.graphs {
+  margin-top: 100px;
+}
+
+.graphs .title-h5 {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.img-label {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.img-after-text {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
