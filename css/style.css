@@ -468,7 +468,7 @@ body {
 
 .eco-text {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 40px;
 }
@@ -504,7 +504,7 @@ body {
 }
 
 .block-with-span {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .swiper-controllers {
@@ -1214,6 +1214,94 @@ body {
 
 .second-row-benefit {
   margin-top: 60px;
+}
+
+.solution-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+
+.solution-description {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.useExmaple {
+  margin-top: 20px;
+}
+
+.useExample .title-h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.useExample-block {
+  margin-top: 100px;
+}
+
+.useExample-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 34px;
+  border-radius: 15.26px;
+  background: rgb(235, 244, 253);
+  padding: 35px 25px;
+}
+
+.useExample-card {
+  box-sizing: border-box;
+  border: 1px solid rgb(197, 197, 198);
+  border-radius: 12px;
+  padding: 40px 28px;
+  margin-bottom: 32px;
+}
+
+.useExample-card-title {
+  color: rgb(22, 22, 22);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.useExample-card-description {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.backtome {
+  margin-top: 50px;
+}
+
+.block-with-image {
+  background: url("../assets/img/gulliver.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.useExmaple-cst-block {
+  margin-left: -225px;
+  margin-top: 32px;
+} 
+
+.eco-text.custom-txt {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 34px;
 }
 
 @media (max-width: 768px) {
