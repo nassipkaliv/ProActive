@@ -1176,6 +1176,46 @@ body {
   line-height: 82px;
 }
 
+.benefits {
+  margin-top: 110px;
+}
+
+.benefits .title-h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+
+.benefit-block {
+  height: 240px;
+}
+
+.benefit-line {
+  border: 2px solid rgb(154, 194, 235);
+  margin-right: 40px;
+}
+
+.benefit-order {
+  color: rgb(232, 232, 232);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 91px;
+}
+
+.benefit-text {
+  color: rgb(122, 122, 122);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.second-row-benefit {
+  margin-top: 60px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
