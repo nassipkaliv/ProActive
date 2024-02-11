@@ -349,7 +349,19 @@ var thanksSwiper = new Swiper('.thanksSwiper', {
   },
 });
 
+$(document).ready(function() {
+  $('#zayavkaAccept').click(function() {
+    $('#zayavkaModal').modal('hide');
+    $('#thanksModal').modal('show');
+  });
+});
 
+$(document).ready(function() {
+  $('#letZayavka').click(function() {
+    $('#contactModal').modal('hide');
+    $('#zayavkaModal').modal('show');
+  });
+});
 
 
 

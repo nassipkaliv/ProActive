@@ -1473,6 +1473,48 @@ body {
   line-height: 19px;
 }
 
+#contactModal .modal-content {
+  padding: 60px 40px 40px 40px;
+}
+
+#zayavkaModal .modal-content {
+  padding: 60px 40px 40px 40px;
+}
+
+.modal .zayavka-btn {
+  height: 72px !important;
+}
+
+.form-label {
+  color: rgb(54, 46, 44);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#thanksModal .modal-content {
+  display: flex;
+  padding: 80px 40px;
+}
+
+#thanksModal .modal-thanks-title {
+  text-align: start !important;
+  color: rgb(0, 114, 229);
+  font-family: Nunito Sans;
+  font-size: 40.69px;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+#thanksModal .modal-thanks-subtitle {
+  color: rgb(54, 46, 44);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none !important;
