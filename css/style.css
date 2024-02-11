@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link.active {
-  color: rgb(0, 114, 229);
+  color: rgb(0, 114, 229) !important;
 }
 
 .nav-link:hover {
