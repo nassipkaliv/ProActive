@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(0, 114, 229);
+  color: rgb(0, 114, 229) !important;
 }
 
 .navbar-buttons {
