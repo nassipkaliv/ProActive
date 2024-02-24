@@ -2853,4 +2853,48 @@ body {
     justify-content: center;
     padding-bottom: 25px;
   }
+
+  .opros-block {
+    padding: 24px;
+  }
+
+  .opros-question {
+    margin-bottom: 24px;
+  }
+
+  .custom-file-upload {
+    border: 1px solid rgb(0, 114, 229);
+    border-radius: 4px;
+    padding: 10px 12px 10px 12px;
+    color: rgb(0, 114, 229);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    
+  }
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+/* Hide the default file input */
+#fileInput2, #fileInput1 {
+    display: none;
+}
+
+.modal-buttons .zayavka-btn {
+  height: auto !important;
+}
+
+.modal-buttons .question-btn {
+  width: 152px;
+}
+
+.modal-logo {
+  width: 200px !important;
+  height: 35px !important;
+}
+
+
 }
