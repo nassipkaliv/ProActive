@@ -241,6 +241,8 @@ body {
 
 .our-work .row {
   gap: 40px;
+  border-top: 1px solid rgb(197, 197, 198);
+  border-bottom: 1px solid rgb(197, 197, 198);
 }
 
 .work-card {
@@ -328,7 +330,7 @@ body {
 .choose-info {
   /* primary */
   background: rgb(0, 114, 229);
-  padding: 76px 73px 175px 50px;
+  padding: 55px 73px 125px 50px;
 }
 
 .choose-pagination {
@@ -370,7 +372,7 @@ body {
 }
 
 .choose-title {
-  margin-top: 70px;
+  margin-top: 40px;
   color: rgb(255, 255, 255);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 37px;
