@@ -811,7 +811,7 @@ body {
 
 .intro-line {
   box-sizing: border-box;
-  border: 3px solid rgb(232, 232, 232);
+  border: 1px solid rgb(232, 232, 232);
   /* grey2 */
   background: rgb(232, 232, 232);
   width: 100%;
@@ -837,13 +837,14 @@ body {
 }
 
 .info-col {
-  padding-left: 60px;
+  padding-left: 25px;
 }
 
 .info-duration {
   border-radius: 16px;
   /* cards bg grey */
   background: rgb(244, 244, 244);
+  padding: 10px 40px;
 }
 
 .big-duration {
@@ -939,6 +940,12 @@ body {
 
 .task-block {
   padding-left: 32px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 12px;
+  /* cards bg grey */
+  background: rgb(244, 244, 244);
+  height: 210px;
 }
 
 .task-big-number {
@@ -959,11 +966,11 @@ body {
 }
 
 .task-block.second {
-  margin-left: 110px;
+  margin-left: 22px;
 }
 
 .task-row {
-  margin-top: 80px;
+  margin-top: 25px;
 }
 
 .taskSwiper {
@@ -971,11 +978,11 @@ body {
   /* grey */
   border: 1px solid rgb(197, 197, 198);
   border-radius: 12px;
-  padding: 52px 32px 120px 52px;
+  padding: 52px 32px 60px 52px;
 }
 
 .taskSwiper .swiper-wrapper {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .task-order {
@@ -1018,7 +1025,7 @@ body {
 }
 
 .install-line {
-  border: 1px solid rgb(197, 197, 198);
+  border-top: 1px solid rgb(197, 197, 198);
 }
 
 .install-text {
@@ -1102,6 +1109,8 @@ body {
   box-sizing: border-box;
   /* grey */
   border: 1px solid rgb(197, 197, 198);
+  border-top: none;
+  border-bottom: none;
   padding: 60px 30px;
   height: 420px;
 }
@@ -2244,7 +2253,8 @@ body {
   }
 
   .intro-line {
-    display: none !important;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
   .intro-second-row {
@@ -2259,7 +2269,7 @@ body {
   .big-duration {
     font-size: 144px;
     font-weight: 600;
-    line-height: 244.81px;
+    line-height: 210px;
     letter-spacing: -4%;
   }
 
@@ -2354,10 +2364,16 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 38px;
+    margin-bottom: 24px;
+  }
+
+  .task-block {
+    height: 120px;
+    padding: 20px;
   }
 
   .task-block.second {
-    margin-left: 50px;
+    margin-left: 8px;
   }
 
   .task-title {
@@ -2393,7 +2409,7 @@ body {
     padding: 24px 15px 50px 15px;
     flex-direction: column;
     gap: 30px;
-    height: 319px;
+    height: 325px;
     margin-right: 8px !important;
   }
 
@@ -2439,7 +2455,7 @@ body {
   }
 
   .install-card-number {
-    font-size: 44.84px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 61.65px;
   }
@@ -2655,7 +2671,7 @@ body {
   }
 
   .security-card {
-    padding: 27px;
+    padding: 25px;
   }
 
   .security-card .install-card-title {
@@ -2665,9 +2681,9 @@ body {
   }
   
   .security-card .install-card-number {
-    font-size: 44.84px;
+    font-size: 38px;
     font-weight: 600;
-    line-height: 61.65px;
+    line-height: 60px;
   }
 
   .security-text {
@@ -2795,5 +2811,27 @@ body {
     font-weight: 300;
     line-height: 19px;
     margin-top: 14px;
+  }
+
+  .desc-card {
+    height: 350px;
+    padding: 40px 25px 70px 25px;
+  }
+
+  .desc-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .task-row {
+    margin-top: 8px;
+  }
+
+  .info-duration {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
   }
 }
