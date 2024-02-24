@@ -411,13 +411,34 @@ body {
 }
 
 .right-col {
-  background: url("../assets/img/gulliver.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 540px;
   display: flex;
   align-items: flex-end;
   padding: 15px;
+}
+
+.right-col.first {
+  background: url("../assets/img/gulliver.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col.second {
+  background: url("../assets/img/gulliver2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col.third {
+  background: url("../assets/img/gulliver3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col.fourth {
+  background: url("../assets/img/gulliver4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .econom-block {
@@ -666,8 +687,9 @@ body {
 .faq-block {
   border: 1px solid rgb(197, 197, 198);
   justify-content: center;
-  padding: 48px 30px;
+  padding: 20px 40px;
   flex: 1 !important;
+  padding-right: 20px !important;
   
 }
 
