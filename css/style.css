@@ -1531,7 +1531,7 @@ body {
 }
 
 .modal .zayavka-btn {
-  height: 72px !important;
+  height: 72px;
 }
 
 .form-label {
@@ -2895,6 +2895,11 @@ body {
 .modal-logo {
   width: 200px !important;
   height: 35px !important;
+}
+
+
+.modal .zayavka-btn {
+  height: 60px ;
 }
 
 
