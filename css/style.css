@@ -2889,6 +2889,7 @@ body {
 
 .modal-buttons .question-btn {
   width: 152px;
+  background: transparent;
 }
 
 .modal-logo {
