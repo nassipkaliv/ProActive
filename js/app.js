@@ -1,58 +1,136 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const buttons = document.querySelectorAll('.choose-button');
+  const proactiveButton = document.querySelector('.electr.mob .choose-button[data-target="proactive-img"]');
+  const proactivePlusButton = document.querySelector('.electr.mob .choose-button[data-target="proactiveplus-img"]');
+  const proactiveImg = document.querySelector('.electr.mob .proactive-img');
+  const proactivePlusImg = document.querySelector('.electr.mob .proactiveplus-img');
+  const prevButton = document.querySelector('.electr.mob .controllers .controller[src="assets/img/prev.png"]');
+  const nextButton = document.querySelector('.electr.mob .controllers .controller[src="assets/img/next.png"]');
+  const o1Element = document.querySelector('.electr.mob .o1');
 
-  buttons.forEach(button => {
-      button.addEventListener('click', function () {
-          const target = this.getAttribute('data-target');
-          const images = document.querySelectorAll('.choose-image img');
+  function activateProactive() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    proactiveButton.classList.add('active');
+    proactivePlusButton.classList.remove('active');
+    o1Element.textContent = '01';
+  }
 
-          images.forEach(img => {
-              if (img.classList.contains(target)) {
-                  img.classList.remove('d-none');
-                  img.classList.add('active');
-              } else {
-                  img.classList.add('d-none');
-                  img.classList.remove('active');
-              }
-          });
+  function activateProactivePlus() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    proactiveButton.classList.remove('active');
+    proactivePlusButton.classList.add('active');
+    o1Element.textContent = '02';
+  }
 
-          buttons.forEach(btn => {
-              btn.classList.remove('active');
-          });
+  proactiveButton.addEventListener('click', function() {
+    activateProactive();
+  });
 
-          this.classList.add('active');
-      });
+  proactivePlusButton.addEventListener('click', function() {
+    activateProactivePlus();
+  });
+
+  prevButton.addEventListener('click', function() {
+    activateProactive();
+  });
+
+  nextButton.addEventListener('click', function() {
+    activateProactivePlus();
   });
 });
 
-const prevButtons = document.querySelectorAll('.controllers .controller[src="assets/img/prev.png"]');
-const nextButtons = document.querySelectorAll('.controllers .controller[src="assets/img/next.png"]');
-const paginations = document.querySelectorAll('.choose-pagination .o1');
+document.addEventListener('DOMContentLoaded', function () {
+  const prevButton = document.querySelector('.controllers .controller[src="assets/img/prev.png"]');
+  const nextButton = document.querySelector('.controllers .controller[src="assets/img/next.png"]');
+  const o1Element = document.querySelector('.o1');
+  const proactiveButton = document.querySelector('.choose-button[data-target="proactive-img"]');
+  const proactivePlusButton = document.querySelector('.choose-button[data-target="proactiveplus-img"]');
+  const proactiveImg = document.querySelector('.proactive-img');
+  const proactivePlusImg = document.querySelector('.proactiveplus-img');
 
-let currentPage = [1, 1]; // Текущая страница для каждого блока
+  // Обработчик события для кнопки "Назад"
+  prevButton.addEventListener('click', function() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    proactiveButton.classList.add('active');
+    proactivePlusButton.classList.remove('active');
+    o1Element.textContent = '01';
+  });
 
-prevButtons.forEach((button, index) => {
-  button.addEventListener('click', function() {
-    if (currentPage[index] > 1) {
-      currentPage[index]--;
-      updatePagination(index);
-    }
+  // Обработчик события для кнопки "Вперед"
+  nextButton.addEventListener('click', function() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    proactiveButton.classList.remove('active');
+    proactivePlusButton.classList.add('active');
+    o1Element.textContent = '02';
   });
 });
 
-nextButtons.forEach((button, index) => {
-  button.addEventListener('click', function() {
-    if (currentPage[index] < 2) {
-      currentPage[index]++;
-      updatePagination(index);
-    }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const proactiveButton = document.querySelector('.choose-button[data-target="proactive-img"]');
+  const proactivePlusButton = document.querySelector('.choose-button[data-target="proactiveplus-img"]');
+  const proactiveImg = document.querySelector('.proactive-img');
+  const proactivePlusImg = document.querySelector('.proactiveplus-img');
+
+  proactiveButton.addEventListener('click', function() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    proactiveButton.classList.add('active');
+    proactivePlusButton.classList.remove('active');
+  });
+
+  proactivePlusButton.addEventListener('click', function() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    proactiveButton.classList.remove('active');
+    proactivePlusButton.classList.add('active');
   });
 });
 
-function updatePagination(index) {
-  paginations[index].textContent = currentPage[index].toString().padStart(2, '0');
-}
+document.addEventListener('DOMContentLoaded', function () {
+  const proactiveButton = document.querySelector('.choose-button[data-target="proactive-img"]');
+  const proactivePlusButton = document.querySelector('.choose-button[data-target="proactiveplus-img"]');
+  const proactiveImg = document.querySelector('.proactive-img');
+  const proactivePlusImg = document.querySelector('.proactiveplus-img');
+  const prevButton = document.querySelector('.controllers .controller[src="assets/img/prev.png"]');
+  const nextButton = document.querySelector('.controllers .controller[src="assets/img/next.png"]');
+  const o1Element = document.querySelector('.o1');
 
+  function activateProactive() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    proactiveButton.classList.add('active');
+    proactivePlusButton.classList.remove('active');
+    o1Element.textContent = '01';
+  }
+
+  function activateProactivePlus() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    proactiveButton.classList.remove('active');
+    proactivePlusButton.classList.add('active');
+    o1Element.textContent = '02';
+  }
+
+  proactiveButton.addEventListener('click', function() {
+    activateProactive();
+  });
+
+  proactivePlusButton.addEventListener('click', function() {
+    activateProactivePlus();
+  });
+
+  prevButton.addEventListener('click', function() {
+    activateProactive();
+  });
+
+  nextButton.addEventListener('click', function() {
+    activateProactivePlus();
+  });
+});
 
 const swiper = new Swiper('.example-Swiper', {
 
@@ -385,3 +463,42 @@ document.getElementById("clear-form").addEventListener("click", function(event) 
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Получаем кнопки, элементы изображений и пагинации
+  const proactiveButton = document.querySelector('.choose-button[data-target="proactive-img"]');
+  const proactivePlusButton = document.querySelector('.choose-button[data-target="proactiveplus-img"]');
+  const o1Element = document.querySelector('.o1');
+  const o2Element = document.querySelector('.o2');
+  const proactiveImg = document.querySelector('.proactive-img');
+  const proactivePlusImg = document.querySelector('.proactiveplus-img');
+
+  // Назначаем обработчики событий для кнопок
+  proactiveButton.addEventListener('click', function() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    o1Element.innerText = '01';
+    o2Element.innerText = '02';
+  });
+
+  proactivePlusButton.addEventListener('click', function() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    o1Element.innerText = '02';
+    o2Element.innerText = '01';
+  });
+
+  // Назначаем обработчики событий для pagination
+  o1Element.addEventListener('click', function() {
+    proactiveImg.classList.remove('d-none');
+    proactivePlusImg.classList.add('d-none');
+    o1Element.innerText = '01';
+    o2Element.innerText = '02';
+  });
+
+  o2Element.addEventListener('click', function() {
+    proactiveImg.classList.add('d-none');
+    proactivePlusImg.classList.remove('d-none');
+    o1Element.innerText = '02';
+    o2Element.innerText = '01';
+  });
+});
