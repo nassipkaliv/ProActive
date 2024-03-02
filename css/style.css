@@ -249,6 +249,8 @@ body {
   box-sizing: border-box;
   /* grey */
   border: 1px solid rgb(197, 197, 198);
+  border-top: none;
+  border-bottom: none;
   padding: 54px 25px 30px 25px;
   height: 450px;
   display: flex;
@@ -1144,6 +1146,7 @@ body {
 
 .swiper-line {
   border: 1px solid rgb(197, 197, 198);
+  border-top: none;
 }
 
 .graphs {
