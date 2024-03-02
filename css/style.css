@@ -2906,9 +2906,13 @@ body {
   height: 35px !important;
 }
 
-
 .modal .zayavka-btn {
   height: 60px ;
+}
+
+.logo {
+  width: 120px;
+  height: 23px;
 }
 
 
