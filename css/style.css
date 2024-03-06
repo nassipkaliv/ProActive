@@ -92,10 +92,11 @@ body {
 }
 
 .intro {
-  background: url("../assets/img/bgintro.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 620px;
+  background: url("../assets/img/bgintro.png") center/cover no-repeat; /* центрирование, охватывание и отсутствие повторов */
+  height: 85vh;
+}
+.intro .zayavka-btn {
+  padding: 18px 32px 18px 32px;
 }
 
 .title-h1 {
@@ -122,7 +123,7 @@ body {
 }
 
 .aboutus {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .title-h2 {
@@ -1737,6 +1738,19 @@ body {
 
   .intro-btn {
     margin-top: 40px;
+  }
+
+  .intro .zayavka-btn {
+    box-sizing: border-box;
+    /* primary */
+    border: 0.95px solid rgb(0, 114, 229);
+    border-radius: 5.71px;
+    /* primary */
+    background: rgb(0, 114, 229);
+    padding: 8px 12px 8px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
   }
 
   .zayavka-btn {
