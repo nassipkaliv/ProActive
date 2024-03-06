@@ -93,7 +93,7 @@ body {
 
 .intro {
   background: url("../assets/img/bgintro.png") center/cover no-repeat; /* центрирование, охватывание и отсутствие повторов */
-  height: 85vh;
+  height: 95vh;
 }
 .intro .zayavka-btn {
   padding: 18px 32px 18px 32px;
